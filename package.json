@@ -1,0 +1,23 @@
+{
+  "name": "nates_mvp",
+  "version": "1.0.0",
+  "description": "game_swap",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MVP"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "nate_schwab",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "express": "^4.13.4"
+  }
+}

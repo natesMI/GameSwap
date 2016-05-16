@@ -1,0 +1,14 @@
+<div>
+  <form>
+    <label for="name">Name</label>    
+    <input ng-model="name" id="name"type="text" placeholder=" name" />
+
+    <label for="email">Email</label>
+    <input ng-model="email" id="email" type="text" placeholder=" email" />
+
+    <label for="games">Games</label> 
+    <input ng-model="games" id="games" type="text" placeholder=" games = {System: Title, System: Title}" />
+
+    <button ng-click="postCollection(name, email, games)">Post Collection</button>
+  </form>
+</div>

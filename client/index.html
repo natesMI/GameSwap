@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app='game-swap'>
+  <head>
+    <meta charset="utf-8" />
+    <title>Game Swap</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>Game Swap</h1>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href='/#/collections'>Collections</a></li>
+        <li><a href='/#/publish'>Post Collection</a></li>
+      </ul>
+    </nav>
+
+
+    <div ng-view></div>
+
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-route/angular-route.js"></script>
+
+    <script src="app/collections/collections.js"></script>
+    <script src="app/publish/publish.js"></script>
+    <script src="app/services/services.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
