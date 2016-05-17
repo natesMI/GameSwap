@@ -39,7 +39,7 @@ input {
   display: block;
   margin: 10px;
   height: 30px;
-  width: 200px;
+  width: 400px;
   border-radius: 5px;
 }
 
@@ -49,4 +49,9 @@ input {
   padding: 5px;
   margin: 10px;
   width: 500px;
+}
+
+.info {
+  background-color: white;
+  border-radius: 5px;
 }

@@ -5,10 +5,20 @@
 
     <label for="email">Email</label>
     <input ng-model="email" id="email" type="text" placeholder=" email" />
+    
+    <h3>Games: </h3>
+    <label for="ps4">PS4: </label> 
+    <input ng-model="ps4" id="ps4" type="text" placeholder="Title" />
 
-    <label for="games">Games</label> 
-    <input ng-model="games" id="games" type="text" placeholder=" games = {System: Title, System: Title}" />
+    <label for="ps3">PS3: </label> 
+    <input ng-model="ps3" id="ps3" type="text" placeholder="Title" />
 
-    <button ng-click="postCollection(name, email, games)">Post Collection</button>
+    <label for="xbox_one">XBOX ONE: </label> 
+    <input ng-model="xbox_one" id="xbox_one" type="text" placeholder="Title" />
+
+    <label for="xbox_360">XBOX 360: </label> 
+    <input ng-model="xbox_360" id="xbox_360" type="text" placeholder="Title" />
+
+    <button ng-click="postCollection(name, email, ps4, ps3, xbox_one, xbox_360)">Post Collection</button>
   </form>
 </div>

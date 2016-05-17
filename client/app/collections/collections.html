@@ -2,8 +2,11 @@
   <h3>Available Collection</h3>
   <input type="text" ng-model="search" placeholder="Search">
   <div class="collection" ng-repeat="key in display | filter:search">
-  	<p>Owner: <span>{{ key.name }}</span></p>
-  	<p>Contact: <span>{{ key.email }}</span></p>
-  	<div>Games: <span>{{ key.games }}</span></div>
+  	<div>Owner: <span class="info">{{ key.name }}</span></div>
+  	<div>Contact: <span class="info">{{ key.email }}</span></div>
+  	<div>PS4 Games: <span class="info">{{ key.ps4games }}</span></div>
+  	<div>PS3 Games: <span class="info">{{ key.ps3games }}</span></div>
+  	<div>XBOX ONE Games: <span class="info">{{ key.xboxgames }}</span></div>
+  	<div>XBOX 360 Games: <span class="info">{{ key.threesixtygames }}</span></div>
   </div>  
 </div>
