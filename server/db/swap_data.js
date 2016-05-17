@@ -1,1 +1,0 @@
-var swap_data =  ['collection-test'];

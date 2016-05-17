@@ -4,6 +4,7 @@ angular.module('game-swap.publish', [])
 	$scope.display = {0: "Working"};
 
 	$scope.postCollection = function(names, emails, gameList){
+	  console.log('Inside of angular module', names, emails, gameList);
       Collections.publishCollection({
       	name: names, 
       	email: emails, 

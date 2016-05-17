@@ -1,4 +1,9 @@
 <div>
-  <h1>Angular Rendering</h1>
-  <h1>{{ display }}<h1>
+  <h3>Available Collection</h3>
+  <input type="text" ng-model="search" placeholder="Search">
+  <div class="collection" ng-repeat="key in display | filter:search">
+  	<p>Owner: <span>{{ key.name }}</span></p>
+  	<p>Contact: <span>{{ key.email }}</span></p>
+  	<div>Games: <span>{{ key.games }}</span></div>
+  </div>  
 </div>
