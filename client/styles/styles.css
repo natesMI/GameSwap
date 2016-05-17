@@ -1,7 +1,15 @@
+#header {
+  font-weight: bold;
+  font-family: Impact;
+  font-style: italic;
+  color: #003366;
+  font-size: 50px;
+}
+
 .navigation {
   width: 100%;
   height: 40px;
-  background-color: #eee;
+  background-color: #33ccff;
 }
 
 .navigation ul {
@@ -21,10 +29,11 @@
   padding: 10px;
   display: block;
   text-align: center;
+  text-decoration: none;
 }
 
 .navigation li a:hover {
-  background-color: #ddd;
+  background-color: #ff3300;
 }
 
 .navigation li a.selected {
@@ -43,15 +52,36 @@ input {
   border-radius: 5px;
 }
 
+.info {
+  font-weight: bold;
+}
+
 .collection {
+  border: 2px solid #003366;
   border-radius: 5px;
-  background-color: lightblue;
-  padding: 5px;
+  background-color: #33ccff;
+  padding: 10px;
   margin: 10px;
   width: 500px;
 }
 
-.info {
+.collect-entry {
   background-color: white;
   border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#poster {
+  border: 3px solid #33ccff;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#poster:hover {
+  background-color: #ff3300;
+}
+
+#warning {
+  color: #e60000;
 }

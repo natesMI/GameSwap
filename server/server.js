@@ -18,7 +18,6 @@ app.get('/', function(req,res) {
 
 
 app.get('/api/collections', function(req, res){
-  console.log("Server get request is firing");
   var result = new Promise(function(resolve){
     db.onGet(resolve);
   }).then(function(items){

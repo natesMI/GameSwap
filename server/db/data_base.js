@@ -18,7 +18,6 @@ function onRun(err){
 }
 
 exports.onAdd = function(collection){
-	console.log("Database add function is running");
   db.run("INSERT INTO owners (name, email, ps4games, ps3games, xboxgames, threesixtygames) VALUES (?,?,?,?,?,?)",
    collection['name'], collection['email'], collection['PS4_games'], collection['PS3_games'], 
    collection['Xbox_One_games'], collection['Xbox_360_games'], 

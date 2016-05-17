@@ -19,6 +19,8 @@
     <label for="xbox_360">XBOX 360: </label> 
     <input ng-model="xbox_360" id="xbox_360" type="text" placeholder="Title" />
 
-    <button ng-click="postCollection(name, email, ps4, ps3, xbox_one, xbox_360)">Post Collection</button>
+    <button id="poster" ng-click="postCollection(name, email, ps4, ps3, xbox_one, xbox_360); ps4=''; ps3=''; xbox_one=''; 
+    xbox_360=''; name=''; email='';">Post Collection</button>
+    <span id="warning" ng-if='!name'>{{ message }}</span>
   </form>
 </div>
