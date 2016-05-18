@@ -85,3 +85,7 @@ input {
 #warning {
   color: #e60000;
 }
+
+.required {
+  border: 2px solid red;
+}
